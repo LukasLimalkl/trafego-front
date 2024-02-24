@@ -5,7 +5,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     height: 100vh;
-    background: red;
+    background: ${(props) => props.theme.body};
     font-family: Open-Sans, Helvetica, Sans-Serif;
   }
 `;
