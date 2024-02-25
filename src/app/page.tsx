@@ -1,9 +1,10 @@
 'use client';
-
 import Header from '@/components/header';
+import Switch from '@/components/switch';
 import GlobalStyle from '@/styles/GlobalStyles';
 import { darkTheme, lightTheme } from '@/styles/theme/bodyModes/bodyModes';
 import { useState } from 'react';
+import { LuMoon, LuSunMedium } from 'react-icons/lu';
 import { ThemeProvider } from 'styled-components';
 import { Container } from './styles';
 
@@ -19,7 +20,11 @@ export default function Home() {
       <GlobalStyle />
       <Container>
         <Header />
-        <button onClick={themeToggler}>{theme}</button>
+        <span onClick={themeToggler} className="span-theme">
+          <LuSunMedium className="sol" />
+          <Switch />
+          <LuMoon />
+        </span>
       </Container>
     </ThemeProvider>
   );
