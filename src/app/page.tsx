@@ -11,7 +11,7 @@ import { Container } from './styles';
 export default function Home() {
   const [theme, setTheme] = useState('light');
 
-  const themeToggler = () => {
+  const toggleTheme = () => {
     theme === 'light' ? setTheme('dark') : setTheme('light');
   };
 
@@ -20,11 +20,11 @@ export default function Home() {
       <GlobalStyle />
       <Container>
         <Header />
-        <span onClick={themeToggler} className="span-theme">
+        <div className="switch-box">
           <LuSunMedium className="sol" />
-          <Switch />
+          <Switch toggleTheme={toggleTheme} />
           <LuMoon />
-        </span>
+        </div>
       </Container>
     </ThemeProvider>
   );

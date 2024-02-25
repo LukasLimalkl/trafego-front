@@ -9,4 +9,7 @@ export const Container = styled.div`
     width: 40px;
     height: 40px;
   }
+  .span-switch {
+    width: 50px;
+  }
 `;

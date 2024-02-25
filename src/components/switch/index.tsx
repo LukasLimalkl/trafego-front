@@ -2,11 +2,15 @@ import { useState } from 'react';
 import './styles';
 import { Container } from './styles';
 
-function Switch() {
+interface ITheme {
+  toggleTheme: () => void;
+}
+function Switch({ toggleTheme }: ITheme) {
   const [isToggled, setIsToggled] = useState(false);
 
   const onToggle = () => {
     setIsToggled(!isToggled);
+    toggleTheme();
   };
 
   return (
