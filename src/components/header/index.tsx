@@ -5,16 +5,11 @@ import { Container } from './styles';
 export default function Header() {
   return (
     <Container>
-      <h2 className="main-title">
-        Saiba se o anuncio do seu cliente esta no ar
-      </h2>
-
       <Link
-        href="https://github.com/LukasLimalkl"
+        href="https://github.com/LukasLimalkl/trafego-front"
         target="_blank"
-        className="github-icon"
       >
-        <TfiGithub />
+        <TfiGithub className="github-icon" />
       </Link>
     </Container>
   );

@@ -19,12 +19,12 @@ export default function Home() {
     <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
       <GlobalStyle />
       <Container>
-        <Header />
         <div className="switch-box">
           <LuSunMedium className="sol" />
           <Switch toggleTheme={toggleTheme} />
-          <LuMoon />
+          <LuMoon className="lua" />
         </div>
+        <Header />
       </Container>
     </ThemeProvider>
   );
