@@ -1,5 +1,6 @@
 'use client';
 import Header from '@/components/header';
+import MainBox from '@/components/mainBox';
 import Switch from '@/components/switch';
 import GlobalStyle from '@/styles/GlobalStyles';
 import { darkTheme, lightTheme } from '@/styles/theme/bodyModes/bodyModes';
@@ -26,6 +27,7 @@ export default function Home() {
         </div>
         <Header />
       </Container>
+      <MainBox />
     </ThemeProvider>
   );
 }
