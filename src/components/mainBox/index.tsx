@@ -9,13 +9,7 @@ export default function MainBox() {
       <div className="box">
         <h3 className="box-title">Adicione o nome e usuario do seu cliente</h3>
         <ClientInputs />
-        <div className="box-clients">
-          <h3 className="title-clients">Clientes</h3>
-          <div className="search-container">
-            <input type="text" />
-          </div>
-          <ClientsForm />
-        </div>
+        <ClientsForm />
       </div>
     </Container>
   );
