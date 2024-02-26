@@ -22,19 +22,36 @@ export const Container = styled.div`
     height: 30px;
   }
 
+  input:focus {
+    outline: 0;
+  }
+
   .name-client {
+    padding-left: 5px;
   }
 
   .user-client {
+    padding-left: 5px;
     width: 250px;
   }
 
   button {
-    width: 50px;
+    width: 60px;
     height: 30px;
   }
   .button-container {
     flex-direction: row-reverse;
     display: flex;
+  }
+
+  .save-button {
+    background: none;
+    color: #83caa2;
+    font-weight: 900;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 1px solid #83caa2;
+    border-radius: 16px;
   }
 `;
