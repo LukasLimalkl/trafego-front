@@ -38,7 +38,13 @@ export const Container = styled.div`
   button {
     width: 60px;
     height: 30px;
+    cursor: pointer;
   }
+
+  button:hover {
+    border: 2px solid #83caa2;
+  }
+
   .button-container {
     flex-direction: row-reverse;
     display: flex;
