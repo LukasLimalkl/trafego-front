@@ -7,7 +7,7 @@ export default function MainBox() {
     <Container>
       <h2 className="title">Controle os anúncios do seu cliente aqui!</h2>
       <div className="box">
-        <h3 className="box-title">Adicione o nome e usuario do seu cliente</h3>
+        <h3 className="box-title">Adicione o nome e usuario do seu cliente:</h3>
         <ClientInputs />
         <ClientsForm />
       </div>
