@@ -11,6 +11,7 @@ export default function ClientsForm() {
         <form action="" className="all-clients">
           <ul className="ul-clients">
             <li className="list-clients">
+              <span>Cliente</span>
               <div className="button-box">
                 <button className="edit-button">Editar</button>
                 <button className="delete-button">Deletar</button>
