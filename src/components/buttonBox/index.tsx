@@ -7,13 +7,13 @@ export default function ButtonBox() {
   return (
     <Container>
       <button className="edit-button">
-        <AiOutlineEdit />
+        <AiOutlineEdit className="edit-icon" />
       </button>
       <button className="delete-button">
-        <IoTrash />
+        <IoTrash className="delete-icon" />
       </button>
       <button className="verify-button">
-        <IoIosSearch />
+        <IoIosSearch className="verify-icon" />
       </button>
     </Container>
   );
