@@ -1,4 +1,4 @@
-import ButtonBox from '../buttonBox';
+import FormClientList from '../formClientList';
 import { Container } from './styles';
 
 export default function ClientsForm() {
@@ -9,14 +9,7 @@ export default function ClientsForm() {
         <div className="search-container">
           <input type="text" placeholder="Pesquisar" />
         </div>
-        <form action="" className="form-clients">
-          <ul className="ul-clients">
-            <li className="list-clients">
-              <span>Cliente</span>
-              <ButtonBox />
-            </li>
-          </ul>
-        </form>
+        <FormClientList />
       </div>
     </Container>
   );
