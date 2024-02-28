@@ -30,11 +30,11 @@ export const Container = styled.div`
   }
 
   .verify-button {
-    border: 1px solid green;
+    border: 2px solid ${(props) => props.theme.buttonColor};
     border-radius: 10px;
   }
 
   .verify-icon {
-    color: green;
+    color: ${(props) => props.theme.buttonColor};
   }
 `;
