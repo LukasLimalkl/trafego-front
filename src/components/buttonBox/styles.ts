@@ -4,6 +4,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: row;
   gap: 1.2rem;
+  margin-right: 20px;
 
   button {
     background: none;

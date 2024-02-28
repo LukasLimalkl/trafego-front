@@ -22,7 +22,7 @@ export const Container = styled.div`
   }
 
   .form-clients {
-    background-color: #f3f2f5;
+    background-color: ${(props) => props.theme.body};
     width: 300px;
     height: 100px;
     margin-top: 2rem;
@@ -30,6 +30,7 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 20px;
+    border-radius: 20px;
   }
 
   .title-clients {
