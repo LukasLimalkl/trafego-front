@@ -9,7 +9,7 @@ export default function ClientsForm() {
         <div className="search-container">
           <input type="text" placeholder="Pesquisar" />
         </div>
-        <form action="" className="all-clients">
+        <form action="" className="form-clients">
           <ul className="ul-clients">
             <li className="list-clients">
               <span>Cliente</span>

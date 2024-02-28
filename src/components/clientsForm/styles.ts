@@ -21,10 +21,15 @@ export const Container = styled.div`
     outline: 0;
   }
 
-  .all-clients {
+  .form-clients {
     background-color: #f3f2f5;
     width: 300px;
+    height: 100px;
     margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
   }
 
   .title-clients {
@@ -39,11 +44,6 @@ export const Container = styled.div`
     display: flex;
     flex-direction: row;
     gap: 3rem;
-  }
-
-  .button-box {
-    display: flex;
-    flex-direction: column;
   }
 
   span {
