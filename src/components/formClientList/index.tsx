@@ -4,9 +4,9 @@ import { Container } from './styles';
 interface IClientBox {
   client: string;
 }
-// isso vai virar um .map
-// vai receber como props o nome do cliente e vai ser utilizado a
-// partir de um array
+// This will be a .map
+//get props with name client
+// the info are get on DB
 export default function FormClientList({ client }: IClientBox) {
   return (
     <Container>
