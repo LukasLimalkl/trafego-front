@@ -1,13 +1,19 @@
 import ButtonBox from '../buttonBox';
 import { Container } from './styles';
 
-export default function FormClientList() {
+interface IClientBox {
+  client: string;
+}
+// isso vai virar um .map
+// vai receber como props o nome do cliente e vai ser utilizado a
+// partir de um array
+export default function FormClientList({ client }: IClientBox) {
   return (
     <Container>
       <form action="" className="form-clients">
         <ul className="ul-clients">
           <li className="list-clients">
-            <span>Cliente</span>
+            <span>{client}</span>
             <ButtonBox />
           </li>
         </ul>
